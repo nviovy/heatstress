@@ -1,5 +1,7 @@
-# heatstress
-code for heatstress paper
-ORCHIDEE_heats.tz contains the ORCHIDEE code including the new parameterization of heatstress turnover
-codeC.tar: contains the differents C code used to calculate the delta HS_ref: analogXXX.c allow determintion for each pixels of analog years and the difference of LAI or VI before and after the max temperature
-RepXXX.c comptue the delta HS_ref and others related indices. tmaxXX estimate the maximum yearly temperature from modis and copernicus
+# Code for heatstress paper
+This repository contains the code used in the paper "Heat stress: an underestimated impact of climate change on vegetation"
+
+1. **ORCHIDEE_heats.tz** contains in a tarball the ORCHIDEE code based on tag 2.2 including the new parameterization of heatstress turnover
+2. **CodeC** is a directory than contains the different C codes used to estimate delta Hs_ref, the heatstress indice, from the different remote sensing data (MODIS and COPERNICUS LAI, Ts and different vegetation indices)
+3. **CodeR** is a directory that contains both data and R scripts used to generate the figures from the paper
+
